@@ -105,7 +105,7 @@ public class RegisterFragmentForHospital extends Fragment {
                 blood = bloodRequirement.getText().toString().trim();
                 charge = incharge.getText().toString().trim();
 
-                if (TextUtils.isEmpty(name) || TextUtils.isEmpty(add) || TextUtils.isEmpty(pho) || TextUtils.isEmpty(blood) || TextUtils.isEmpty(charge) || !flag3)
+                if (TextUtils.isEmpty(name) || TextUtils.isEmpty(add) || TextUtils.isEmpty(pho) || TextUtils.isEmpty(blood) || TextUtils.isEmpty(charge) || !flag3 || !flag6)
                 {
                     Toast.makeText(getActivity(), "Please Fill All The Fields Appropriately", Toast.LENGTH_LONG).show();
                 }
