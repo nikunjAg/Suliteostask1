@@ -25,11 +25,14 @@ public class MainActivity extends AppCompatActivity {
 
     SectionPagerAdapter sectionPagerAdapter;
     ViewPager viewPager;
+    Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        toolbar = findViewById(R.id.toolbar1);
+        setSupportActionBar(toolbar);
 
         sectionPagerAdapter = new SectionPagerAdapter(getSupportFragmentManager());
         viewPager = findViewById(R.id.container);
