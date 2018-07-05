@@ -130,7 +130,7 @@ public class RegisterFragmentForHospital extends Fragment {
     }
 
     private boolean validatePassword(CharSequence s) {
-        Pattern pattern = Pattern.compile("[a-zA-Z0-9\\\\!\\\\@\\\\#\\\\$]{8,24}");
+        Pattern pattern = Pattern.compile("^(?=.*[A-Za-z])(?=.*\d)(?=.*[$@$!%*#?&])[A-Za-z\d$@$!%*#?&]{8,}$");
         Matcher matcher = pattern.matcher(s);
         return matcher.matches();
     }
