@@ -51,6 +51,8 @@ public class LoginFragmentForHospital extends Fragment {
                     if (!passwordvalidate(s))
                     {
                         flag = false;
+                        hospassword.setError("Enter According to the constraints");
+
                     }
                     else
                         flag = true;
