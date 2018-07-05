@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.dell.suliteostask1.Main2Activity">
+    <item
+        android:id="@+id/action_settings1"
+        android:orderInCategory="100"
+        android:title="Register"
+        app:showAsAction="always" />
+</menu>
