@@ -57,6 +57,8 @@ public class RegisterFragmentForHospital extends Fragment {
                     if (!validatePassword(s))
                     {
                         flag6 = false;
+                        password.setError("Enter According to the given constraints");
+
                     }
                     else {
                         flag6 = true;
