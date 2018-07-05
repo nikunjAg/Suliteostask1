@@ -8,6 +8,7 @@ Registration and Login
 ![screenshot_20180705-160044 1](https://user-images.githubusercontent.com/40520815/42319435-970dbe2c-806f-11e8-814e-38f05d26c8af.png)
 ![screenshot_20180705-160041 1](https://user-images.githubusercontent.com/40520815/42319465-b2e945da-806f-11e8-8be3-a00a6b6cfa9c.png)
 ![screenshot_20180705-160031 1](https://user-images.githubusercontent.com/40520815/42319491-c2d50e0c-806f-11e8-8e64-b27987d0232a.png)
+![screenshot_20180705-163940 1](https://user-images.githubusercontent.com/40520815/42320271-66640c56-8072-11e8-8d7f-b03c0d60c92d.png)
 
 
 
