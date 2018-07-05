@@ -51,6 +51,7 @@ public class LoginFragmentForUser extends Fragment{
                     if(!emailValidation(s))
                     {
                         flag = false;
+                        EmailId.setError("wrong EmailId");
                     }
                     else
                         flag = true;
@@ -78,6 +79,8 @@ public class LoginFragmentForUser extends Fragment{
                     if (!passwordvalidate(s))
                     {
                         flag2 = false;
+                        loginpassword.setError("Enter According to the given constraints");
+
                     }
                     else
                     {
